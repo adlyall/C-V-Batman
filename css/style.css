@@ -1,0 +1,96 @@
+/* Cuerpo del documento*/
+body {
+  margin: 0;
+  /* Tipo de fuentes: En el ejercicio es Times New Roman */
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* Encabezado */
+header {
+  background: #e6e6e6;
+  text-align: center;
+}
+
+header img {
+  padding: 20px;
+}
+
+/* Título principal del CV */
+h1 {
+  background: #c4c4c4;
+  color: #005677;
+  letter-spacing: 0.5rem;
+  line-height: 85%;
+  font-weight: 700;
+  font-size: 35px;
+  padding-top: 14px;
+  padding-bottom: 16px;
+  margin-top: 0;
+  margin-bottom: 149px; /* separación grande entre el título y el contenido */
+}
+
+/*Secciones y título de cada sección */
+section h2 {
+  background: #c4c4c4;
+  color: #005677;
+  letter-spacing: 0.2rem;
+  line-height: 85%;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 6px 12px 7px 12px;
+}
+
+.lista-principal {
+  margin-bottom: 1.8rem;
+}
+
+/* Separación entre ítems de la lista */
+section ul li {
+  margin-bottom: 0.3rem;
+}
+
+/* Para eliminar las viñetas  */
+.eliminar-estilo-lista li {
+  list-style-type: none;
+}
+
+/* Tamaño y interlineado del texto de las listas */
+li {
+  font-size: 15px;
+  line-height: 1.3rem;
+}
+
+/* Fechas - Nombre completo:, etc. van en negrita 700: equivalente a la palabra clave bold */
+ul li span {
+  font-weight: 700;
+}
+
+/* Nombre completo, Fecha y Lugar de nacimientoen en cursiva */
+.datos-personales span {
+  font-style: italic;
+}
+
+li ul {
+  margin-left: 35px;
+}
+
+/* Pie de página */
+footer {
+  margin-top: 120px;
+  background: #005677;
+  color: white;
+  padding-top: 11px;
+  padding-bottom: 9px;
+  text-align: center;
+}
+
+footer span {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 85%;
+}
+
+/* Separación entre los íconos de las redes */
+footer img {
+  margin-left: 26px;
+}
